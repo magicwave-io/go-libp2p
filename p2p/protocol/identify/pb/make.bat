@@ -1,0 +1,1 @@
+protoc -I=%GOPATH%\src\github.com\gogo\protobuf\protobuf -I=%GOPATH%\src -I=. --gogofaster_out=. identify.proto
